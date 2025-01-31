@@ -53,9 +53,9 @@ function calculateRank({
   const REVIEWS_MEDIAN = 2,
     REVIEWS_WEIGHT = 1;
   const STARS_MEDIAN = 50,
-    STARS_WEIGHT = 4;
+    STARS_WEIGHT = 0;
   const FOLLOWERS_MEDIAN = 10,
-    FOLLOWERS_WEIGHT = 1;
+    FOLLOWERS_WEIGHT = 0;
 
   const TOTAL_WEIGHT =
     COMMITS_WEIGHT +
